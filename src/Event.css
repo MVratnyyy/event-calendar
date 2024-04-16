@@ -1,0 +1,33 @@
+div {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative; /* Umožní pozicionování tlačítka absolutně vůči tomuto kontejneru */
+  }
+  
+  h3 {
+    margin-top: 0;
+    margin-bottom: 8px; /* Zajistí, že je dostatek místa pro popisek a další obsah */
+  }
+  
+  p {
+    margin-bottom: 8px; /* Ujistíme se, že popisek má dostatek místa */
+  }
+  
+  button {
+    position: absolute; /* Pozicionujeme tlačítko absolutně v rámci boxu události */
+    top: 10px; /* Nastavíme odstup od horního okraje boxu */
+    right: 10px; /* Nastavíme odstup od pravého okraje boxu */
+    background-color: #ff4d4f;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff2121;
+  }
+  
